@@ -1,6 +1,6 @@
 const express = require('express');
 const graphqlHTTP = require('express-graphql')
-app.use('/graphql', graphqlHTTP({
+app.use('/grapql', graphqlHTTP({
   graphiql: true
 }))
 const app = express()
