@@ -1,8 +1,4 @@
-test  switch (
-) {
-  case expression:
-
-    break;
-  default:
-
-}e
+const express = require( express');
+const app = express()
+app.listen(4000)
+console.log('nasłuchuję...');
